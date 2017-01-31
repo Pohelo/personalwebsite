@@ -1,0 +1,90 @@
+
+#name{
+  color: #FFFFFF;
+  background-color: #FFBABA;
+  width: auto;
+  letter-spacing: normal;
+  height: auto;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Calligraffitti', cursive;
+    border-radius: 20px;
+}
+
+#biography{
+  font-family: fantasy;
+  color: white;
+  font-size: 15px;
+  background-color: #AEFA66;
+  margin-left: 980px;
+  margin-right: 10px;
+  border-right: 10px;
+  border-radius: 20px;
+}
+#paragraphtwo{
+  font-family: fantasy;
+  color: white;
+  font-size: 15px;
+  background-color: #50F8FA;
+  margin-left: 980px;
+  margin-right: 10px;
+  border-right: 10px;
+    border-radius: 20px;
+}
+
+#paragraphthree{
+  font-family: fantasy;
+  color: white;
+  font-size: 15px;
+  background-color: #A750FA;
+  margin-left: 980px;
+  margin-right: 10px;
+  border-right: 10px;
+    border-radius: 20px;
+}
+
+#picture{
+float: left;
+border-radius: 20px;
+margin-right: 40px;
+}
+
+#menu{
+  margin-top: 40px;
+  text-align: left;
+}
+
+#shower{
+  align-items: center;
+  color: white;
+  border-radius: 20px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+      border-radius: 20px;
+}
+
+li {
+    float: center;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+#copyright{
+  float: left;
+}

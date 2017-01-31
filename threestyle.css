@@ -1,0 +1,114 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+#picture{
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+#header{
+  font-size: 40px;
+  background-color: #1996BF;
+  color: #FFFFFF;
+  text-align: center;
+  font-family: sans-serif;
+      border-radius: 20px;
+}
+
+#Interest1{
+  text-align: center;
+  background-color: #67DBB1;
+        border-radius: 10px;
+        color: white;
+        font-family: serif;
+        margin-left: 8px;
+        margin-right: 8px;
+}
+
+#Interest2{
+  text-align: center;
+  background-color: #DB6791;
+        border-radius: 10px;
+        color: white;
+        font-family: serif;
+        margin-left: 8px;
+        margin-right: 8px;
+}
+
+#Interest3{
+  text-align: center;
+  background-color: #CBDB67;
+        border-radius: 10px;
+        color: white;
+        font-family: serif;
+        margin-left: 8px;
+        margin-right: 8px;
+}
+
+#Interest4{
+  text-align: center;
+  background-color: #7767DB;
+        border-radius: 10px;
+        color: white;
+        font-family: serif;
+        margin-left: 8px;
+        margin-right: 8px;
+}
+
+#picture2{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#Interest5{
+  text-align: center;
+  background-color: #DB67AB;
+        border-radius: 10px;
+        color: white;
+        font-family: serif;
+        margin-left: 8px;
+        margin-right: 8px;
+}
+
+#ToCareerAspiration{
+  text-align: center;
+  background-color: #DB7A67;
+        border-radius: 10px;
+        color: white;
+        font-family: serif;
+        margin-left: 8px;
+        margin-right: 8px;
+}
+
+#Music{
+  margin-left: 550px;
+  margin-right: 550px;
+}
+
+#MusicTitle{
+  background-color: grey;
+  color:white;
+  border-radius: 20px;
+  text-align: center;
+}

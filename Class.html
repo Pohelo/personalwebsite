@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>K.Min</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+</script>
+  <link rel="stylesheet" type="text/css" href="twostyle.css">
+</head>
+<body>
+  <div id= "Menubar"><ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="class.html">Class</a></li>
+  <li><a href="Interest.html">Interests</a></li>
+  <li><a href="worldview.html">Worldview</a></li>
+  <li><a href="careeraspiration.html">Career</a></li>
+</ul></div>
+<div id= "Title"><h3><u>2K17 Classes</u></h3></div>
+<div id= "Body"><p>Click buttons to see the information</p></div>
+<button id="revealer">Semester 1</button><br>
+<div id="table1">
+<TABLE  BORDER="100">
+   <TR>
+      <TH COLSPAN="2">
+         <H3><BR>Time Table</H3>
+      </TH>
+   </TR>
+      <TH>Digital Design</TH>
+      <TH>Red</TH>
+      <TR><TH>Creative Writing</TH>
+        <TH>Orange</TH>
+      </TR>
+      <TR><TH>Pre Calculus</TH>
+        <TH>Yellow</TH></TR>
+        <TR><TH>Psychology</TH>
+          <TH>Green</TH></TR>
+          <TR><TH>World Literature</TH>
+            <TH>Blue</TH></TR>
+            <TR><TH>Biology</TH>
+              <TH>Indigo</TH></TR>
+              <TR><TH>Computer Science</TH>
+                <TH>Violet</TH></TR>
+                <TR><TH>Bible Interpretation</TH>
+                  <TH>Charcaol</TH></TR></TABLE><br></div>
+                  <script>
+                        $("#table1").hide();
+                        </script>
+
+<button id="shower">Semester 2</button><br>
+<div id="table2"><TABLE  BORDER="100">
+   <TR>
+      <TH COLSPAN="2">
+         <H3><BR>Time Table</H3>
+      </TH>
+   </TR>
+      <TH><div id="Red">Web Design</div></TH>
+      <TH><div id="Orange">Red</div></TH>
+      <TR><TH><div id="Orange">Creative Writing</div></TH>
+        <TH><div id="Yellow">Orange</div></TH></TR>
+      <TR><TH><div id="Yellow">Pre Calculus</div></TH>
+        <TH><div id="Green">Yellow</div></TH></TR>
+        <TR><TH><div id="Green">Psychology</div></TH>
+          <TH><div id="Blue">Green</div></TH></TR>
+          <TR><TH><div id="Blue">World Literature</div></TH>
+            <TH><div id="Indigo">Blue</div></TH></TR>
+            <TR><TH><div id="Indigo">Biology</div></TH>
+              <TH><div id="Violet">Indigo</div></TH></TR>
+              <TR><TH><div id="Violet">Computer Science</div></TH>
+                <TH><div id="Charcoal">Violet</div></TH></TR>
+                <TR><TH><div id="Charcoal">Worldview</div></TH>
+                  <TH><div id="Red">Charcaol</div></TH></TR></TABLE></div>
+                  <script>
+                            $("#table2").hide();
+                            </script>
+<script>
+                  		  $( "#shower" ).click(function() {
+                  		  	$( "#table2" ).toggle("slow");
+                  		  });
+                        $( "#revealer" ).click(function() {
+                          $( "#table1" ).toggle("slow");
+                        });
+
+</script>
+<div id="Copyright">©Taejo<p></div>
+</body>
+</html>

@@ -1,0 +1,85 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+#Title{
+  font-size: 40px;
+  background-color: #B34630;
+  color: #FFFFFF;
+  text-align: center;
+  font-family: "Impact", "Charcoal", "sans-serif";
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+}
+#Wait{
+  text-align: center;
+  font-family: "Impact", "Charcoal", "sans-serif";
+  margin-left: 8px;
+  margin-right: 8px;
+border-style: solid;
+border-spacing: 10px 5px;
+}
+
+#picture{
+margin-left: 200px;
+border-style: solid;
+margin-right: 184px;
+}
+
+#intro{
+  text-align: justify;
+  font-family: "Impact", "Charcoal", "sans-serif";
+  margin-left: 8px;
+  margin-right: 8px;
+border-style: solid;
+border-spacing: 10px 5px;
+}
+
+#MyCareer{
+  text-align: justify;
+  font-family: "Impact", "Charcoal", "sans-serif";
+  margin-left: 8px;
+  margin-right: 8px;
+border-style: solid;
+border-spacing: 10px 5px;
+}
+
+#Conclusion{
+  text-align: center;
+  font-family: "Impact", "Charcoal", "sans-serif";
+  margin-left: 8px;
+  margin-right: 8px;
+border-style: solid;
+border-spacing: 10px 5px;
+}
+#Music{
+  margin-left: 500px;
+  margin-right: 500px;
+}
+#Copyright{
+  margin-left: 8px;
+}
