@@ -1,0 +1,62 @@
+fieldset, form, label, legend {
+    background: #FBFCFD;
+    margin: 5px;
+    padding: 0;
+    vertical-align: baseline;
+    font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+    border: 1px;
+    border-color: #FBFCFD;
+}
+
+.boxcontrol{
+width: 300px;
+height: 15px;
+}
+
+.boxcontrollong{
+width: 150px;
+height: 15px;
+
+}
+
+h2 { font-size: 30px; line-height:38px; font-weight:normal; }
+
+#Name { background: #FBFCFD; padding: 10px; width: 1500px; margin: 1% auto 0 auto; position: relative;}
+#Email { background: #FBFCFD; padding: 10px; width: 1500px; margin: 1% auto 0 auto; position: relative;}
+#ReEnterEmail { background: #FBFCFD; padding: 10px; width: 1500px; margin: 1% auto 0 auto; position: relative;}
+#Password { background: #FBFCFD; padding: 10px; width: 1500px; margin: 1% auto 0 auto; position: relative;}
+#ReEnterPassword { background: #FBFCFD; padding: 10px; width: 1500px; margin: 1% auto 0 auto; position: relative;}
+
+#Why {
+  font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 5px;
+}
+
+#Survey{
+  font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 15px;
+}
+
+#Terms{
+  font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 5px;
+}
+
+button{
+  background-color: #34ad29;
+  color: white;
+}
+
+.bdcontrol{
+  display: inline;
+}
+
+.genderControl{
+  display:inline;
+}
+
+.buttoncontrol{
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+}
