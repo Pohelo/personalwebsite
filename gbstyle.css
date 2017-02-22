@@ -44,10 +44,11 @@ border-style: solid;
 border-spacing: 10px 5px;
 }
 
-#picture{
-margin-left: 200px;
+#form{
+margin-left: 250px;
 border-style: solid;
-margin-right: 184px;
+margin-right: 200px;
+border-color: #B34630;
 }
 
 #intro{
@@ -82,4 +83,44 @@ border-spacing: 10px 5px;
 }
 #Copyright{
   margin-left: 8px;
+}
+
+.control{
+  text-align: center;
+  font-family: "Impact", "Charcoal", "sans-serif";
+  width: 500px;
+  border-color: #B34630;
+  font-size: 15px;
+}
+
+.button{
+  text-align: center;
+  font-family: "Impact", "Charcoal", "sans-serif";
+  width: 300px;
+  height: 40px;
+  font-size: 20px;
+  color: #309DB3;
+  background-color: white;
+  border-color: #B34630;
+}
+
+#FONT{
+  text-align: center;
+  font-family: "Impact", "Charcoal", "sans-serif";
+  font-size: 20px;
+}
+
+#MusicFinish{
+  text-align: center;
+  font-family: "Impact", "Charcoal", "sans-serif";
+}
+
+#MusicPlay{
+  text-align: center;
+  font-family: "Impact", "Charcoal", "sans-serif";
+  border-color: #B34630;
+  margin-left: 8px;
+  margin-right: 8px;
+border-style: solid;
+border-spacing: 10px 5px;
 }
